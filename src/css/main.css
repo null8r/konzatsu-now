@@ -21,12 +21,13 @@ body:after {
 }
 
 main {
-  width: 100%;
+  width: 400px;
   height: 100%;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 #nojs {
@@ -81,6 +82,7 @@ img.emoji {
 }
 
 .konzatsu {
+  margin: 0 auto;
   text-align: center;
 }
 .konzatsu .boxTitle {
@@ -91,7 +93,9 @@ img.emoji {
   padding: 30px;
   text-align: center;
   height: auto;
+  min-width: 340px;
   width: 100%;
+  max-width: 360px;
   border: solid 10px #808080;
   border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -19,13 +19,15 @@ body:after{
   animation: gradient 13s ease infinite;
 }
 main{
-  width: 100%;
+  width: 400px;
   height: 100%;
   padding: 20px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 0 auto;
 }
 #nojs{
   width: 100%;
@@ -79,15 +81,18 @@ img.emoji{
   .boxTitle{
     padding-bottom: 30px;
   }
+  margin: 0 auto;
   text-align: center;
 }
 
 .status{
   padding: 30px;
-
   text-align: center;
+
   height: auto;
+  min-width: 340px;
   width: 100%;
+  max-width: 360px;
   border: solid 10px #808080;
   border-radius: 10px;
 }
