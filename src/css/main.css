@@ -24,7 +24,6 @@ main {
   width: 100%;
   height: 100%;
   padding: 20px;
-  padding-bottom: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,4 +73,24 @@ img.emoji {
   width: 1em;
   margin: 0.05em 0.1em;
   vertical-align: -0.1em;
+}
+
+.subTxt {
+  font-size: 40%;
+}
+
+.konzatsu {
+  text-align: center;
+}
+.konzatsu .boxTitle {
+  padding-bottom: 30px;
+}
+
+.status {
+  padding: 30px;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  border: solid 10px #ff0088;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
