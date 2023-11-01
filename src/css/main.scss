@@ -42,6 +42,7 @@ main{
   z-index: 1;
 }
 footer {
+  font-size: 20px;
   text-align: center;
   position: fixed;
   left: 0;
@@ -71,7 +72,7 @@ img.emoji{
 }
 
 .subTxt{
-  font-size: 40%;
+  font-size: 80%;
 }
 
 .konzatsu{
@@ -87,6 +88,6 @@ img.emoji{
   text-align: center;
   height: auto;
   width: 100%;
-  border: solid 10px #ff0088;
+  border: solid 10px #808080;
   border-radius: 10px;
 }
