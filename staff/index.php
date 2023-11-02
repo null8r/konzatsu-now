@@ -48,31 +48,31 @@
           こんざつ状況を選択
         </h1>
 
-        <div class="status" style="border: solid 10px #808080;">
+        <div class="status select" style="border: solid 10px #808080;">
           <h1>😴準備中</h1>
           <p>
             まだ販売を開始していません。
           </p>
         </div>
-        <div class="status" style="border: solid 10px #00d000;">
+        <div class="status select" style="border: solid 10px #00d000;">
           <h1>😄空いている</h1>
           <p>
             みんな買いに来て！！
           </p>
         </div>
-        <div class="status" style="border: solid 10px #fff000;">
+        <div class="status select" style="border: solid 10px #fff000;">
           <h1>😧ちょい混み</h1>
           <p>
             そこそこ並んでいます！！
           </p>
         </div>
-        <div class="status" style="border: solid 10px #ff0088;">
+        <div class="status select" style="border: solid 10px #ff0088;">
           <h1>😵げき混み</h1>
           <p>
             提供に時間が掛かっています。
           </p>
         </div>
-        <div class="status" style="border: solid 10px #ff0000;">
+        <div class="status select" style="border: solid 10px #ff0000;">
           <h1>😫完売</h1>
           <p>
             買ってくれてありがとう！！
@@ -83,6 +83,18 @@
 
     <footer class="glass-filter">
       <p>
+        <?php
+            try 
+            {   
+                $database_handler = new PDO('mysql:host=localhost;dbname=konzatsunow_konzatsu;charset=utf8mb4', 'konzatsunow_db', '73YhLRcXHhY9hgK');
+             }   
+             catch (PDOException $e) 
+             {   
+                 echo "DB接続に失敗しました。\n";
+                 echo $e->getMessage() . "\n";
+                 exit;
+             }   
+        ?>
         <span class="subTxt">わたしの<span style="color: #f0f;">コハル</span>ちゃんをかえして、、、</span><br>
         Developed by <a href="https://github.com/null8r" title="GitHub" target="_blank" rel="noopener noreferrer">null8r</a>.
       </p>
