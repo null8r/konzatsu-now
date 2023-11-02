@@ -73,6 +73,23 @@ img.emoji{
   vertical-align: -0.1em;
 }
 
+.glass-filter{
+  backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+@supports not (backdrop-filter: blur(5px)) {
+  .glass-filter{
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
+@media all and (-ms-high-contrast: none) {
+  *{
+    font-size: initial;
+  }
+  .glass-filter{
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
 .subTxt{
   font-size: 80%;
 }
