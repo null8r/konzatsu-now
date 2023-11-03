@@ -59,18 +59,6 @@
 
     <footer class="glass-filter">
       <p>
-        <?php
-            try 
-            {   
-                $database_handler = new PDO('mysql:host=localhost;dbname=konzatsunow_konzatsu;charset=utf8mb4', 'konzatsunow_db', '73YhLRcXHhY9hgK');
-             }   
-             catch (PDOException $e) 
-             {   
-                 echo "DB接続に失敗しました。\n";
-                 echo $e->getMessage() . "\n";
-                 exit;
-             }   
-        ?>
         <span class="subTxt">わたしの<span style="color: #f0f;">コハル</span>ちゃんをかえして、、、</span><br>
         Developed by <a href="https://github.com/null8r" title="GitHub" target="_blank" rel="noopener noreferrer">null8r</a>.
       </p>
