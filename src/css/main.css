@@ -4,7 +4,6 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   font-family: "Noto Sans JP";
 }
 
@@ -59,6 +58,7 @@ a {
   text-decoration: none !important;
   transition: transform 0.2s;
 }
+
 a:active {
   transform: scale(0.95);
 }
@@ -103,6 +103,7 @@ img.emoji {
   margin: 0 auto;
   text-align: center;
 }
+
 .konzatsu .boxTitle {
   padding-bottom: 30px;
 }
@@ -116,4 +117,4 @@ img.emoji {
   max-width: 360px;
   border: solid 10px #808080;
   border-radius: 10px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
