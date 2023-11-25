@@ -1,3 +1,6 @@
+# テーブルの中身
+[エクスポートしたファイル](konzatsunow_konzatsu.sql)
+
 ## $status_table = 'status_id';
 | status |
 | :----: |
