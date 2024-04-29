@@ -9,27 +9,27 @@ main {
 }
 
 .closed {
-  border: solid 10px #808080;
+  border: solid 10px #b5b5ac;
 }
 
 .empty {
-  border: solid 10px #00d000;
+  border: solid 10px #00bb85;
 }
 
 .little {
-  border: solid 10px #fff000;
+  border: solid 10px #ff9500;
 }
 
 .crowded {
-  border: solid 10px #ff0088;
+  border: solid 10px #cd045b;
 }
 
 .sold {
-  border: solid 10px #ff0000;
+  border: solid 10px #f62e36;
 }
 
 .stop {
-  border: solid 10px #8a2be2;
+  border: solid 10px #8f76d6;
 }
 
 .only {
