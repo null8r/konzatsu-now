@@ -1,0 +1,50 @@
+main {
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.konzatsu {
+  text-align: left;
+}
+
+.closed {
+  border: solid 10px #b5b5ac;
+}
+
+.empty {
+  border: solid 10px #00bb85;
+}
+
+.little {
+  border: solid 10px #ff9500;
+}
+
+.crowded {
+  border: solid 10px #cd045b;
+}
+
+.sold {
+  border: solid 10px #f62e36;
+}
+
+.stop {
+  border: solid 10px #8f76d6;
+}
+
+.only {
+  border: solid 10px #deb887;
+}
+
+#list label {
+  display: block;
+  padding: 10px;
+  margin: 5px auto;
+  font-size: 180%;
+  border-radius: 10px;
+}
+
+#list label input {
+  margin-left: 20px;
+  margin-right: 20px;
+}/*# sourceMappingURL=staff.css.map */

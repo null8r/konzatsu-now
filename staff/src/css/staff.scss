@@ -1,0 +1,43 @@
+main {
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.konzatsu{
+text-align: left;
+}
+
+.closed{
+border: solid 10px #808080;
+}
+.empty{
+border: solid 10px #00d000;
+}
+.little{
+border: solid 10px #fff000;
+}
+.crowded{
+border: solid 10px #ff0088;
+}
+.sold{
+border: solid 10px #ff0000;
+}
+.stop{
+  border: solid 10px #8a2be2;
+}
+.only{
+  border: solid 10px #deb887;
+}
+
+#list label{
+display: block;
+padding: 10px;
+margin: 5px auto;
+font-size: 180%;
+border-radius: 10px;
+}
+#list label input{
+margin-left: 20px;
+margin-right: 20px;
+}
